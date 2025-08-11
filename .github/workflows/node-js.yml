@@ -1,5 +1,10 @@
 name: Node.js CI
 
+permissions:
+  id-token: write
+  contents: read
+  pages: write
+
 on:
   push:
     branches: [ "main" ]
