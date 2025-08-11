@@ -31,5 +31,4 @@ jobs:
 
       - name: Lint and auto-fix issues
         run: |
-          npx eslint . --ext .ts,.tsx --fix
-          npx eslint . --ext .ts,.tsx
+          npx eslint
