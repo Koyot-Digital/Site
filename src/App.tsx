@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Game from './components/Game';
+import Careers from './components/Careers';
 import Footer from './components/Footer';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -30,6 +31,7 @@ function App() {
       <Hero />
       <About />
       <Game />
+      <Careers />
       <Footer 
         onNavigateToTerms={() => setCurrentPage('terms')}
         onNavigateToPrivacy={() => setCurrentPage('privacy')}

@@ -11,7 +11,6 @@ export default function Hero() {
           alt="Oakridge Nuclear Power Station" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/60"></div>
       </div>
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -21,7 +20,7 @@ export default function Hero() {
         
         <p className="text-xl md:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto leading-relaxed">
           Roblox Development Group behind 
-          <span className="text-blue-400 font-semibold"> Oakridge Nuclear Power Station</span>
+          <span className="text-yellow-200 font-semibold"> Oakridge Nuclear Power Station</span>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -29,7 +28,7 @@ export default function Hero() {
             href="https://wiki.koyot.digital/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 flex items-center space-x-2"
+            className="group bg-gradient-to-r from-amber-700 to-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-amber-600 hover:to-amber-500 transition-all duration-200 transform hover:scale-105 flex items-center space-x-2 shadow-lg"
           >
             <span>View Wiki</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -39,7 +38,7 @@ export default function Hero() {
             href="https://www.roblox.com/games/15684145480" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="border-2 border-white/30 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-white/50 hover:bg-white/10 transition-all duration-200 flex items-center space-x-2"
+            className="border-2 border-amber-200/50 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-amber-200 hover:bg-amber-200/10 transition-all duration-200 flex items-center space-x-2 shadow-lg"
           >
             <Play className="w-5 h-5" />
             <span>Play on Roblox</span>
