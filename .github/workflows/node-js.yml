@@ -28,8 +28,13 @@ jobs:
 
       - name: Build project
         run: npm run build
+      - name: Show Node and npm versions
+        run: |
+          node --version 
+          npm --version
 
+      - name: you can read YML
+        run: npx eslint --version
       - name: Lint code
-      # i removed the test cause it fails
-        run: npm run lint || true
+        run: npm run lint
 
