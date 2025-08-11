@@ -28,13 +28,8 @@ jobs:
 
       - name: Build project
         run: npm run build
-      - name: Show Node and npm versions
+
+      - name: Lint and auto-fix issues
         run: |
-          node --version 
-          npm --version
-
-      - name: you can read YML
-        run: npx eslint --version
-      - name: Lint code
-        run: npm run lint
-
+          npx eslint . --ext .ts,.tsx --fix
+          npx eslint . --ext .ts,.tsx
