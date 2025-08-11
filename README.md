@@ -14,16 +14,7 @@ A modern, responsive website for Koyot Digital, a Roblox development group speci
 
 Koyot Digital is the development team behind **Oakridge Nuclear Power Station**, an immersive nuclear facility simulation game on Roblox. Our mission is to create the most realistic and educational nuclear power plant experiences while maintaining engaging gameplay for all ages.
 
-## ✨ Features
-
-- **Modern Design**: Clean, professional interface with smooth animations and micro-interactions
-- **Responsive Layout**: Optimized for all devices from mobile to desktop
-- **Game Information**: Detailed information about Oakridge Nuclear Power Station
-- **External Links**: Direct links to Roblox game, Discord community, and documentation wiki
-- **Legal Pages**: Complete Terms of Service and Privacy Policy
-- **Contact Information**: Multiple contact methods for support and inquiries
-
-## 🛠 Technologies Used
+#Technologies Used
 
 - **React 18** - Modern React with hooks and functional components
 - **TypeScript** - Type-safe development
@@ -32,42 +23,7 @@ Koyot Digital is the development team behind **Oakridge Nuclear Power Station**,
 - **Lucide React** - Beautiful, customizable icons
 - **ESLint** - Code linting and quality assurance
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js (version 16 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/koyot-digital-website.git
-cd koyot-digital-website
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-## 📁 Project Structure
 
 ```
 src/
@@ -84,7 +40,7 @@ src/
 └── index.css          # Global styles and Tailwind imports
 ```
 
-## 🎯 Usage
+# Usage
 
 The website serves as the official presence for Koyot Digital, providing:
 
@@ -95,23 +51,23 @@ The website serves as the official presence for Koyot Digital, providing:
 - Documentation and wiki resources
 - Legal information and contact details
 
-## 🔗 Important Links
+#Important Links
 
 - **Roblox Game**: [Oakridge Nuclear Power Station](https://www.roblox.com/games/15684145480)
 - **Discord Community**: [Join our Discord](https://discord.gg/H87stZMZD4)
 - **Documentation**: [wiki.koyot.digital](https://wiki.koyot.digital/)
 
-## 📞 Contact
+#Contact
 
 - **Primary Support**: [koyotsupport@chrisrelf.dev](mailto:koyotsupport@chrisrelf.dev)
 - **Privacy Inquiries**: [privacy@chrisrelf.dev](mailto:privacy@chrisrelf.dev)
 - **Legal/Compliance**: [compliance@chrisrelf.dev](mailto:compliance@chrisrelf.dev)
 
-## 📄 License
+# License
 
 This project is proprietary software owned by Koyot Digital. All rights reserved.
 
-## 🤝 Contributing
+# Contributing
 
 This is a private project for Koyot Digital. If you're interested in contributing to our Roblox games or have suggestions for the website, please contact us through our Discord server or support email.
 
