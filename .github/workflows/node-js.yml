@@ -31,4 +31,10 @@ jobs:
 
       - name: Lint and auto-fix issues
         run: |
-          npx eslint
+          npx eslint . --ext .ts,.tsx --fix
+          npx eslint . --ext .ts,.tsx
+
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
