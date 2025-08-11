@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, ExternalLink, Frown } from 'lucide-react';
+import { /*Briefcase,*/ ExternalLink, Frown } from 'lucide-react';
 
 export default function Careers() {
   const jobOpenings = [
