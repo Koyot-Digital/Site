@@ -34,14 +34,15 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Lint and auto-fix issues
-        run: |
-          npx eslint --fix
-          npx eslint
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
+
+      - name: Lint and auto-fix issues
+        run: |
+          npx eslint --fix
+          npx eslint
 
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v4
