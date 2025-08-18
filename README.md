@@ -14,43 +14,6 @@ A modern, responsive website for Koyot Digital, a Roblox development group speci
 
 Koyot Digital is the development team behind **Oakridge Nuclear Power Station**, an immersive nuclear facility simulation game on Roblox. Our mission is to create the most realistic and educational nuclear power plant experiences while maintaining engaging gameplay for all ages.
 
-### Technologies Used
-
-- **React 18** - Modern React with hooks and functional components
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first CSS framework for rapid styling
-- **Vite** - Fast build tool and development server
-- **Lucide React** - Beautiful, customizable icons
-- **ESLint** - Code linting and quality assurance
-
-
-
-```
-src/
-├── components/          # React components
-│   ├── Header.tsx      # Navigation header
-│   ├── Hero.tsx        # Hero section with main CTA
-│   ├── About.tsx       # About Koyot Digital section
-│   ├── Game.tsx        # Game information section
-│   ├── Footer.tsx      # Footer with links and contact
-│   ├── TermsOfService.tsx    # Legal terms page
-│   └── PrivacyPolicy.tsx     # Privacy policy page
-├── App.tsx             # Main application component
-├── main.tsx           # Application entry point
-└── index.css          # Global styles and Tailwind imports
-```
-
-### Usage
-
-The website serves as the official presence for Koyot Digital, providing:
-
-- Information about our Roblox development group
-- Details about Oakridge Nuclear Power Station game
-- Links to play the game on Roblox
-- Access to our Discord community
-- Documentation and wiki resources
-- Legal information and contact details
-
 ### Important Links
 
 - **Roblox Game**: [Oakridge Nuclear Power Station](https://www.roblox.com/games/15684145480)
@@ -71,6 +34,7 @@ This project is proprietary software owned by Koyot Digital. All rights reserved
 
 This is a private project for Koyot Digital. If you're interested in contributing to our Roblox games or have suggestions for the website, please contact us through our Discord server or support email.
 
+Maintained by chrxs_dev/elixar **only**
 ---
 
 **Koyot Digital** - Creating immersive nuclear power simulation experiences on Roblox since 2024.
