@@ -17,6 +17,22 @@ export default function Careers() {
     //   applyUrl: "https://forms.google.com/your-form-link-here"
     // }
 
+    // Uncomment and fill out this template when hiring:
+     {
+       title: "Moderator",
+       department: "Moderation",
+       type: "Voluntary",
+       description: " If you're passionate about our community or interested in ONPS, we'd love to see your application! ",
+       requirements: [
+         "Friendly & active community members",
+         "Respectful and reasonable judgement",
+         "Maturity and willingness to help the community",
+        "Interest in promoting community growth & engagement"
+
+       ],
+       applyUrl: " https://forms.gle/sTxqMbxCQdKcTZWm8 "
+     }
+
     
   ];
 
