@@ -18,6 +18,7 @@ export default function Careers() {
     // }
 
     // Uncomment and fill out this template when hiring:
+    /*
      {
        title: "Moderator",
        department: "Moderation",
@@ -31,7 +32,7 @@ export default function Careers() {
 
        ],
        applyUrl: " https://forms.gle/sTxqMbxCQdKcTZWm8 "
-     }
+     }*/
 
     
   ];
