@@ -18,7 +18,32 @@ export default function Careers() {
     // }
 
     // Uncomment and fill out this template when hiring:
-     
+      {
+       title: "Moderator",
+       department: "Moderation",
+       type: "Full-time",
+       description: "Passionate about the community? Consider becoming a moderator & help keep our community safe!",
+       requirements: [
+         "Friendly & active community members",
+         "Respectful and reasonable judgment",
+         "Maturity and willingness to help the community",
+         "Interest in promoting community growth & engagement"
+       ],
+       applyUrl: "https://forms.gle/6RWJ1aNSNnuGDXxt5"
+     },
+     {
+       title: "Tester",
+       department: "Development",
+       type: "Full-time",
+       description: "Interested in the details? Consider becoming a tester and giving live feedback on unreleased updates!",
+       requirements: [
+         "Friendly & active community members",
+         "Respectful and reasonable judgment",
+         "Maturity and willingness to help the community",
+         "Interest in promoting community growth & engagement"
+       ],
+       applyUrl: "https://forms.gle/XcL7Z8ZpPnxujQtu7"
+     }
     
   ];
 
@@ -42,9 +67,7 @@ export default function Careers() {
               </div>
               <h3 className="text-2xl font-bold text-amber-900 mb-4">No Open Positions</h3>
               <p className="text-amber-800 text-lg mb-6 max-w-2xl mx-auto">
-                Our hiring reactor is currently offline for maintenance. But hey, if you're a nuclear enthusiast 
-                who codes, we'd love to hear from you anyway!
-              </p>
+                Our hiring reactor is currently offline for maintenance. 
             </div>
           </div>
         ) : (
