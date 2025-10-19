@@ -68,6 +68,7 @@ export default function Careers() {
               <h3 className="text-2xl font-bold text-amber-900 mb-4">No Open Positions</h3>
               <p className="text-amber-800 text-lg mb-6 max-w-2xl mx-auto">
                 Our hiring reactor is currently offline for maintenance. 
+              </p>
             </div>
           </div>
         ) : (
