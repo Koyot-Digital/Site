@@ -17,33 +17,7 @@ export default function Careers() {
     //   applyUrl: "https://forms.google.com/your-form-link-here"
     // }
 
-    // Uncomment and fill out this template when hiring:
-      {
-       title: "Moderator",
-       department: "Moderation",
-       type: "Full-time",
-       description: "Passionate about the community? Consider becoming a moderator & help keep our community safe!",
-       requirements: [
-         "Friendly & active community members",
-         "Respectful and reasonable judgment",
-         "Maturity and willingness to help the community",
-         "Interest in promoting community growth & engagement"
-       ],
-       applyUrl: "https://forms.gle/6RWJ1aNSNnuGDXxt5"
-     },
-     {
-       title: "Tester",
-       department: "Development",
-       type: "Full-time",
-       description: "Interested in the details? Consider becoming a tester and giving live feedback on unreleased updates!",
-       requirements: [
-         "Friendly & active community members",
-         "Respectful and reasonable judgment",
-         "Maturity and willingness to help the community",
-         "Interest in promoting community growth & engagement"
-       ],
-       applyUrl: "https://forms.gle/XcL7Z8ZpPnxujQtu7"
-     }
+    // Uncomment and fill out this template when hiring
     
   ];
 
