@@ -13,8 +13,8 @@ export function useGameStats() {
         const response = await fetch(GAME_STATS_URL);
         const data = await response.json();
         if (data.data && data.data.length > 0) {
-          setPlayerCount(data.playersOnline || 0);
-          setVisits(data.totalVisits || 0);
+          setPlayerCount(data.playersOnline);
+          setVisits(data.totalVisits);
         }
         else {
           setPlayerCount(0);
