@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const GAME_ID = '15684145480';
-const GAME_STATS_URL = `http://roblox.ninioteam.dev/api/${GAME_ID}/playerInfo`;
+const GAME_STATS_URL = `http://roblox.ninioteam.dev/api/${GAME_ID}/stats`;
 
 export function useGameStats() {
   const [playerCount, setPlayerCount] = useState<number | null>(null);
