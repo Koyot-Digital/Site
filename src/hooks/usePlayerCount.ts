@@ -16,7 +16,7 @@ export function useGameStats() {
         if (data) {
           setPlayerCount(data.playersOnline ?? 0);
           setVisits(data.totalVisits ?? 0);
-          setUpvotes(data.upvotes ?? 0);
+          setUpvotes(data.upVotes ?? 0);
         }
         else {
           setPlayerCount(0);
