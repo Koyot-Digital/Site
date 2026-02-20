@@ -6,6 +6,7 @@ const GAME_STATS_URL = `https://roblox.ninioteam.dev/api/${GAME_ID}/stats`;
 export function useGameStats() {
   const [playerCount, setPlayerCount] = useState<number | null>(null);
   const [visits, setVisits] = useState<number | null>(null);
+  const [upvotes, setUpvotes] = useState<number | null>(null);
 
   useEffect(() => {
     const fetchGameStats = async () => {
@@ -15,15 +16,18 @@ export function useGameStats() {
         if (data) {
           setPlayerCount(data.playersOnline ?? 0);
           setVisits(data.totalVisits ?? 0);
+          setUpvotes(data.upvotes ?? 0);
         }
         else {
           setPlayerCount(0);
           setVisits(0);
+          setUpvotes(0);
         }
       } catch (error) {
         console.error('Failed to fetch game stats:', error);
         setPlayerCount(0);
         setVisits(0);
+        setUpvotes(0);
       }
     };
     fetchGameStats();
@@ -31,5 +35,5 @@ export function useGameStats() {
     return () => clearInterval(interval);
   }, []);
 
-  return { playerCount, visits };
+  return { playerCount, visits, upvotes };
 }
