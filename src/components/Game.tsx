@@ -3,7 +3,7 @@ import { ExternalLink, Zap, Shield, Settings, Users, Eye } from 'lucide-react';
 import { useGameStats } from '../hooks/usePlayerCount';
 
 export default function Game() {
-  const { playerCount, visits } = useGameStats();
+  const { playerCount, visits, upvotes } = useGameStats();
 
   return (
     <section id="game" className="py-20 bg-amber-900">
@@ -30,6 +30,16 @@ export default function Game() {
               </div>
               <div className="text-amber-800 text-sm font-medium">Total Visits</div>
             </div>
+          </div>
+            
+          <div className="bg-gradient-to-r from-amber-100/90 to-amber-50/90 backdrop-blur-sm rounded-2xl p-6 border border-amber-300/50">
+            <div className="flex items-center justify-center space-x-3 mb-2">
+              <Eye className="w-6 h-6 text-amber-800" />
+              <div className="text-2xl font-bold text-amber-900">
+                {upvotes !== null ? upvotes.toLocaleString() : '---'}
+              </div>
+            </div>
+            <div className="text-amber-800 text-sm font-medium">Game Upvotes</div>
           </div>
         </div>
 
