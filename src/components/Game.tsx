@@ -1,16 +1,16 @@
 import React from 'react';
-import { ExternalLink, Zap, Shield, Settings, Users, Eye } from 'lucide-react';
+import { ExternalLink, Zap, Shield, Settings, Users, Eye, ThumbsUp } from 'lucide-react';
 import { useGameStats } from '../hooks/usePlayerCount';
 
 export default function Game() {
-  const { playerCount, visits } = useGameStats();
+  const { playerCount, visits, upvotes } = useGameStats();
 
   return (
     <section id="game" className="py-20 bg-amber-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Game Stats Display */}
         <div className="text-center mb-12">
-          <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-2xl mx-auto">
             <div className="bg-gradient-to-r from-amber-100/90 to-amber-50/90 backdrop-blur-sm rounded-2xl p-6 border border-amber-300/50">
               <div className="flex items-center justify-center space-x-3 mb-2">
                 <Users className="w-6 h-6 text-amber-800" />
@@ -29,6 +29,16 @@ export default function Game() {
                 </div>
               </div>
               <div className="text-amber-800 text-sm font-medium">Total Visits</div>
+            </div>
+            
+            <div className="bg-gradient-to-r from-amber-100/90 to-amber-50/90 backdrop-blur-sm rounded-2xl p-6 border border-amber-300/50">
+              <div className="flex items-center justify-center space-x-3 mb-2">
+                <ThumbsUp className="w-6 h-6 text-amber-800" />
+                <div className="text-2xl font-bold text-amber-900">
+                  {upvotes !== null ? upvotes.toLocaleString() : '---'}
+                </div>
+              </div>
+              <div className="text-amber-800 text-sm font-medium">Total Upvotes</div>
             </div>
           </div>
         </div>
