@@ -18,7 +18,18 @@ export default function Careers() {
     // }
 
     // Uncomment and fill out this template when hiring
-    
+    {
+       title: "Community Relations Mod",
+       department: "Community Relations",
+       type: "Full-time",
+       description: "Join our team of community relations to work with the community",
+       requirements: [
+         "Be 14+ years of age",
+         "Be a semi-regularly active community member",
+         "Be respectful of your peers and community members"
+       ],
+       applyUrl: "https://forms.google.com/your-form-link-here"
+     }
   ];
 
   return (
