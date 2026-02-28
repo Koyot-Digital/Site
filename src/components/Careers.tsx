@@ -28,7 +28,7 @@ export default function Careers() {
          "Be a semi-regularly active community member",
          "Be respectful of your peers and community members"
        ],
-       applyUrl: "https://forms.google.com/your-form-link-here"
+       applyUrl: " https://forms.gle/zbRZYfRkoW5dgNzq6"
      }
   ];
 
